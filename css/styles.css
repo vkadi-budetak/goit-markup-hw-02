@@ -1,0 +1,202 @@
+:root {
+  /* Fonts */
+  --primary-font: Roboto;
+  --second-font: Raleway;
+  /* Text colors */
+  --main-txt-cl: #2e2f42;
+  --accent-txt-cl: #404bbf;
+  --logo-txt-cl: #4d5ae5;
+  --text-txt-cl: #434455;
+  --btn-txt-cl: #ffffff;
+  --white-txt-cl: #f4f4fd;
+  /* BG colors */
+  --accent-bg-cl: #404bbf;
+  /* Others */
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+/* reset */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-family: var(--second-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 11, 7;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-txt-cl);
+}
+.logo-studio {
+  color: var(--main-txt-cl);
+}
+
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--main-txt-cl);
+}
+
+.header-link:hover,
+.header-link:focus,
+.mailto:hover,
+.mailto:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--accent-txt-cl);
+}
+
+.mailto,
+.tel {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--text-txt-cl);
+}
+
+/**
+  |============================
+  | Hero sections
+  |============================
+*/
+.hero-fons-pic {
+  background-color: var(--main-txt-cl);
+}
+.hero {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--btn-txt-cl);
+}
+.hero-btn {
+  background-color: var(--logo-txt-cl);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-bg-cl);
+}
+
+.button-txt {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: var(--btn-txt-cl);
+}
+
+/* Section 1 */
+.subtitle,
+.subtitle,
+.subtitle,
+.subtitle {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--main-txt-cl);
+}
+
+.subtitle-txt {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--text-txt-cl);
+}
+/* Section 2 */
+.heading {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 11, 1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-txt-cl);
+}
+/* Footer */
+.footer-logo {
+  color: var(--white-txt-cl);
+}
+.footer-fons-pic {
+  background-color: var(--main-txt-cl);
+}
+.footer-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--white-txt-cl);
+}
+
+/* Portfolio hero */
+.btn-list-txt {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: var(--logo-txt-cl);
+  background-color: var(--white-txt-cl);
+  cursor: pointer;
+}
+.btn-list-txt:hover,
+.btn-list-txt:focus {
+  color: var(--btn-txt-cl);
+  background-color: var(--accent-bg-cl);
+}
+/* Portfolio */
+.portfolio-title {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+.portfolio-desk {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--text-txt-cl);
+}
