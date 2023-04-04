@@ -10,7 +10,7 @@
   --btn-txt-cl: #ffffff;
   --white-txt-cl: #f4f4fd;
   /* BG colors */
-  --accent-bg-cl: #404bbf;
+  --accent-bg-cl: #06060a;
   /* Others */
 }
 
@@ -44,17 +44,17 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 11.7;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-style: normal;
-  color: var(--logo-txt-cl);
+  color: #4d5ae5;
   
 }
 .logo-studio {
-  color: var(--main-txt-cl);
+  color: #2e2f42;
 }
 
 .header-item {
@@ -63,7 +63,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--main-txt-cl);
+  font-style: normal;
+  color: #2e2f42;
 }
 
 .header-link:hover,
@@ -72,17 +73,18 @@ body {
 .mailto:focus,
 .tel:hover,
 .tel:focus {
-  color: var(--accent-txt-cl);
+  color: #404bbf;
 }
 
 .mailto,
 .tel {
-  font-family: var(--primary-font);
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-txt-cl);
+  font-style: normal;
+  color: #434455;
 }
 
 /**
@@ -91,7 +93,7 @@ body {
   |============================
 */
 .hero-fons-pic {
-  background-color: var(--main-txt-cl);
+  background-color: #2e2f42;
 }
 .hero {
   font-family: Roboto, sans-serif;
@@ -100,15 +102,15 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--btn-txt-cl);
+  color: #ffffff;
 }
 .hero-btn {
-  background-color: var(--logo-txt-cl);
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--accent-bg-cl);
+  background-color: #404bbf;
 }
 
 .button-txt {
@@ -125,13 +127,13 @@ body {
 .subtitle,
 .subtitle,
 .subtitle {
-  font-family: var(--primary-font);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--main-txt-cl);
+  color: #2e2f42;
 }
 .off {
  overflow: hidden; 
@@ -139,44 +141,44 @@ body {
 
 
 .subtitle-txt {
-  font-family: var(--primary-font);
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--text-txt-cl);
+  color: #434455;
 }
 /* Section 2 */
 .heading {
-  font-family: var(--primary-font);
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 11.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--main-txt-cl);
+  color: #2e2f42;
 }
 /* Section  3*/
 .fons-ourteam {
-  background-color: var(--white-txt-cl);
+  background-color: #f4f4fd;
 }
 
 /* Footer */
 .footer-logo {
-  color: var(--white-txt-cl);
+  color: #f4f4fd;
 }
 .footer-fons-pic {
-  background-color: var(--main-txt-cl);
+  background-color: #2e2f42;
 }
 .footer-text {
-  font-family: var(--primary-font);
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--white-txt-cl);
+  color: #f4f4fd;
 }
 
 /* Portfolio hero */
@@ -186,29 +188,29 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--logo-txt-cl);
-  background-color: var(--white-txt-cl);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   cursor: pointer;
 }
 .btn-list-txt:hover,
 .btn-list-txt:focus {
-  color: var(--btn-txt-cl);
-  background-color: var(--accent-bg-cl);
+  color: #ffffff;
+  background-color: #404BBF;
 }
 /* Portfolio */
 .portfolio-title {
-  font-family: var(--primary-font);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-txt-cl);
+  color: #2e2f42;
 }
 .portfolio-desk {
-  font-family: var(--primary-font);
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-txt-cl);
+  color: #434455;
 }
