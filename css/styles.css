@@ -61,16 +61,15 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   font-style: normal;
   color: #2e2f42;
 }
 
 .header-link:hover,
 .header-link:focus,
-.mailto:hover,
-.mailto:focus,
-.tel:hover,
-.tel:focus {
+.address:hover,
+.address:focus {
   color: #404bbf;
 }
 
@@ -130,8 +129,6 @@ body {
   color: #2e2f42;
 }
 
-
-
 .subtitle-txt {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -153,6 +150,9 @@ body {
   color: #2e2f42;
 }
 /* Section  3*/
+.tittle_team {
+  background-color: #FFFFFF;
+}
 .fons-ourteam {
   background-color: #f4f4fd;
 }
@@ -197,6 +197,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.list_servise {
+background-color: #FFFFFF;
 }
 .portfolio-desk {
   font-family: Roboto, sans-serif;
