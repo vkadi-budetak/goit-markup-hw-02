@@ -23,8 +23,6 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
 }
@@ -76,14 +74,13 @@ body {
   color: #404bbf;
 }
 
-.mailto,
-.tel {
+.address {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
+  font-style: normal; 
   color: #434455;
 }
 
@@ -104,22 +101,19 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.hero-btn {
-  background-color: #4d5ae5;
-  cursor: pointer;
-}
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #404bbf;
-}
-
-.button-txt {
+.hero_btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+} 
+.hero_btn:hover,
+.hero_btn:focus {
+  background-color: #404bbf;
 }
 
 /* Section 1 */
@@ -135,9 +129,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.off {
- overflow: hidden; 
-}
+
 
 
 .subtitle-txt {
